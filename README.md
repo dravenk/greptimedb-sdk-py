@@ -66,26 +66,6 @@ with Client(
         print(row)
 ```
 
-## Development & Publishing (with `uv`)
-
-```bash
-# Install dependencies and run tests
-uv sync
-uv run pytest
-
-# Lint & format check
-uv run ruff check .
-
-# Build sdist and wheel into dist/
-uv build
-
-# Publish to TestPyPI (recommended first)
-uv publish --publish-url https://test.pypi.org/legacy/ --token <TESTPYPI_TOKEN>
-
-# Publish to PyPI
-uv publish --token <PYPI_TOKEN>
-```
-
 ## License
 
 MIT
