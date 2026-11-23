@@ -32,9 +32,9 @@ dependencies = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/dravenk/greptimedb"
-Repository = "https://github.com/dravenk/greptimedb"
-Issues = "https://github.com/dravenk/greptimedb/issues"
+Homepage = "https://github.com/dravenk/greptimedb-sdk-py"
+Repository = "https://github.com/dravenk/greptimedb-sdk-py"
+Issues = "https://github.com/dravenk/greptimedb-sdk-py/issues"
 
 [dependency-groups]
 dev = [
